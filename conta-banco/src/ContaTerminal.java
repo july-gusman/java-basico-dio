@@ -10,7 +10,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Conta:");
         int numero = scanner.nextInt();
-        scanner.nextLine(); 
+        scanner.nextLine();
 
         System.out.println("Por favor, digite o nome do Cliente:");
         String nomeCliente = scanner.nextLine();
@@ -20,7 +20,7 @@ public class ContaTerminal {
 
         // Obter pela scanner os valores digitados no terminal.
         // Exibição da mensagem final
-        String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ",
+        String mensagem = "Olá " + nomeCliente + "obrigado por criar uma conta em nosso banco, sua agência é " + agencia + "
         conta " + numero + " e seu saldo " + saldo + " já está disponível para saque!";
         System.out.println(mensagem);
 
